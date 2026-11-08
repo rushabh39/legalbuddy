@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog & Legal Guides | LegalBuddy (US & UK Law Insights)</title>
+  <meta name="description" content="Explore comprehensive transatlantic legal articles, compliance checklists, and comparative analyses for US and UK corporate and digital operations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <aside class="top-notice-bar" aria-label="Announcement">
+    <span>⚖️ Transatlantic Legal Intelligence: Daily commentary on US Federal/State and UK Common Law.</span>
+  </aside>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="index.html" class="brand-logo" aria-label="LegalBuddy Home">
+          <div class="logo-icon">⚖️</div>
+          <span>Legal<span class="logo-red">Buddy</span></span>
+          <span class="logo-badge">US & UK</span>
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="blog.html" class="nav-link active">Blog & Insights</a></li>
+          <li><a href="about.html" class="nav-link">About LegalBuddy</a></li>
+          <li><a href="contact.html" class="nav-link">Contact & Consult</a></li>
+          <li><a href="disclaimer.html" class="nav-link">Disclaimers</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-primary btn-sm">Request Legal Topic</a>
+          <button class="mobile-toggle" aria-label="Toggle Navigation Menu">☰</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Blog Header Banner -->
+    <section style="background: linear-gradient(180deg, #FFF1F2 0%, #FFFFFF 100%); padding: 4.5rem 0 3rem; border-bottom: 1px solid var(--border-color);">
+      <div class="container text-center" style="text-align: center;">
+        <span class="badge badge-red" style="margin-bottom: 1rem;">Transatlantic Legal Dispatch</span>
+        <h1 style="margin-bottom: 1rem;">Legal Knowledge Base & Articles</h1>
+        <p style="max-width: 680px; margin: 0 auto; font-size: 1.15rem; color: var(--text-muted);">
+          Practical, in-depth legal analyses contrasting United States federal/state statutes with United Kingdom and English common law regulations.
+        </p>
+      </div>
+    </section>
+
+    <!-- Blog Archive Section -->
+    <section class="container" style="padding: 3.5rem 1.5rem 5rem;">
+      <!-- Search & Filters -->
+      <div class="filter-bar">
+        <div class="filter-pills">
+          <button class="filter-pill active" data-filter="all">All Disciplines</button>
+          <button class="filter-pill" data-filter="privacy">Data Privacy & Tech</button>
+          <button class="filter-pill" data-filter="corporate">Corporate Formation</button>
+          <button class="filter-pill" data-filter="employment">Employment & Labor</button>
+        </div>
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="blog-search" class="search-input" placeholder="Search by law, keyword, or topic...">
+        </div>
+      </div>
+
+      <!-- Articles Grid -->
+      <div class="cards-grid" id="articles-grid">
+        <!-- Loaded dynamically via js/articles-data.js & main.js -->
+      </div>
+
+      <!-- Quick Topic Taxonomy Cloud -->
+      <div style="margin-top: 5rem; padding: 2.5rem; background: var(--bg-subtle); border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
+        <h3 style="margin-bottom: 1.25rem; font-size: 1.25rem;">Popular Transatlantic Legal Subjects</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.65rem;">
+          <a href="article-data-privacy.html" class="btn btn-outline btn-sm">GDPR Compliance</a>
+          <a href="article-data-privacy.html" class="btn btn-outline btn-sm">California CCPA / CPRA</a>
+          <a href="article-us-uk-business.html" class="btn btn-outline btn-sm">Delaware Series LLC</a>
+          <a href="article-us-uk-business.html" class="btn btn-outline btn-sm">UK Companies House Filings</a>
+          <a href="article-employment-law.html" class="btn btn-outline btn-sm">US At-Will Employment</a>
+          <a href="article-employment-law.html" class="btn btn-outline btn-sm">UK Redundancy & Notice</a>
+          <a href="article-data-privacy.html" class="btn btn-outline btn-sm">EU-US Data Privacy Framework</a>
+          <a href="article-us-uk-business.html" class="btn btn-outline btn-sm">Double Taxation Treaty (US-UK)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="color: #fff; margin-bottom: 1rem;">
+            <div class="logo-icon">⚖️</div>
+            <span>Legal<span style="color: var(--primary-red-hover);">Buddy</span></span>
+          </div>
+          <p style="color: #94A3B8; font-size: 0.9rem;">
+            The go-to resource for US & UK legal practitioners, founders, and compliance officers.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Essential Articles</h4>
+          <ul class="footer-links">
+            <li><a href="article-data-privacy.html">GDPR vs CCPA Privacy</a></li>
+            <li><a href="article-us-uk-business.html">Delaware LLC vs UK Ltd</a></li>
+            <li><a href="article-employment-law.html">At-Will vs UK Worker Rights</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About LegalBuddy</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="disclaimer.html">Disclaimers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Jurisdictions</h4>
+          <p style="color: #CBD5E1; font-size: 0.85rem;">
+            Covering US Federal & State jurisdictions alongside English & Welsh Common Law.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer-card">
+        <strong>LEGAL NOTICE:</strong> LegalBuddy provides editorial legal information and does not provide formal legal advice or representation.
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 LegalBuddy International Inc. & UK Media Ltd.</div>
+        <div>White & Red Legal Publishing Theme.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/articles-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
